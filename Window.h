@@ -23,7 +23,7 @@ public:
 	void          toggleFullScreen(EventDetails* details);
 	void          close(EventDetails* details = nullptr) { isDone = true; }
 
-	sf::RenderWindow* getRenderWindow)() { return &_window; }
+	sf::RenderWindow* getRenderWindow() { return &_window; }
 	sf::Vector2u      getWindowSize();
 	sf::FloatRect     getViewSpace();
 

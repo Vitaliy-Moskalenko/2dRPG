@@ -22,6 +22,9 @@ public:
 	sf::Time getElapsed();
 
 private:
+
+	void _restartClock();
+
 	Window        _window;
 	StateManager  _stateManager;
 	SharedContext _context;
@@ -32,4 +35,3 @@ private:
 	sf::Time  _elapsed;
 
 };
-
